@@ -22,9 +22,18 @@ $(function(){
 
     });
 
-	
-	
-	
+    var quill = new Quill('#cg-editor-container', {
+      modules: {
+        toolbar: [
+          [{ header: [1, 2, 3, false] }],
+          ['bold', 'italic', 'underline'] 
+        ]
+      },
+      placeholder: 'Enter the details of this job',
+      theme: 'snow'  // or 'bubble'
+    });
+
+		
 	
 });
 

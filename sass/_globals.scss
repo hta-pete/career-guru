@@ -95,7 +95,7 @@ html,body{
     min-width:1280px;
 }
 body.post-job-page{
-    background:#ebebeb;
+    background:#f9f9f9;
 }
 #main{
 	width:100%;
@@ -258,6 +258,24 @@ header{
                 }
             }
         }
+    }
+    &.header-post-job{
+        height:110px;
+        //border-bottom:1px solid #ccc;
+        .logo-header{
+            margin-top:-10px;
+        }
+        nav{
+            background:#f9f9f9;
+        }
+        .account-menu{
+            top:0;
+            li{
+                font-size:14px;
+                line-height:70px;
+            }
+        }
+
     }
 }
 footer{
