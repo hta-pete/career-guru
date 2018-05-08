@@ -158,7 +158,7 @@ header {
   width: 100%;
   height: 130px;
   background: white;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid #ddd;
   padding: 0 30px;
 }
 header .guru-search-bar {
@@ -219,7 +219,7 @@ header nav {
   left: 0;
   width: 100%;
   height: 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #ddd;
   padding: 0 30px;
 }
 header nav li {
@@ -362,7 +362,7 @@ footer .footer-menu ul li a:hover {
 footer .footer-social {
   margin-top: 50px;
   padding-top: 50px;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #ddd;
 }
 footer .footer-social h5 {
   font-size: 16px;
@@ -481,7 +481,7 @@ footer .copyright {
 .featured-employers {
   padding: 80px 0 100px 0;
   text-align: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid #ddd;
 }
 .featured-employers h3 {
   font-size: 35px;
@@ -588,7 +588,7 @@ footer .copyright {
 
 .popular-searches {
   padding: 100px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid #ddd;
 }
 .popular-searches h5 {
   font-size: 16px;
@@ -631,7 +631,7 @@ footer .copyright {
 .cg-form-wrapper .container {
   max-width: 450px;
   padding: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  border: 1px solid #ddd;
 }
 .cg-form-wrapper .field {
   margin-top: 15px;
@@ -759,7 +759,7 @@ footer .copyright {
   top: 50%;
   width: 100%;
   height: 1px;
-  background: rgba(0, 0, 0, 0.12);
+  background: #ddd;
 }
 .cg-form-wrapper .cg-form-sign-up-link {
   margin-top: 30px;
@@ -777,15 +777,70 @@ footer .copyright {
   padding: 15px 0 100px 0;
 }
 .cg-post-job-wrapper .cg-post-job-header {
-  padding: 20px;
   text-align: center;
-  background: #1d43be;
+  background: white;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
 }
 .cg-post-job-wrapper .cg-post-job-header h2 {
   display: block;
+  padding: 20px;
+  background: #1d43be;
   font-size: 30px;
   line-height: 30px;
   color: white;
+}
+.cg-post-job-wrapper .cg-form-steps {
+  text-align: center;
+  padding: 20px 0 30px 0;
+}
+.cg-post-job-wrapper .cg-form-steps .step {
+  position: relative;
+  margin-right: 0;
+  text-align: center;
+}
+.cg-post-job-wrapper .cg-form-steps .step .step-text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.cg-post-job-wrapper .cg-form-steps .step .progress {
+  position: relative;
+  z-index: 0;
+  margin-top: 15px;
+  height: 3px;
+  background: #ddd;
+  width: 100%;
+}
+.cg-post-job-wrapper .cg-form-steps .step:first-child .progress {
+  width: 50%;
+  margin-left: 50%;
+}
+.cg-post-job-wrapper .cg-form-steps .step:last-child .progress {
+  width: 50%;
+  margin-right: 50%;
+}
+.cg-post-job-wrapper .cg-form-steps .step .progress-dot {
+  position: absolute;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin-top: 6px;
+  left: 50%;
+  margin-left: -12px;
+  background: #ddd;
+  border-radius: 100%;
+}
+.cg-post-job-wrapper .cg-form-steps .step .progress-dot.active {
+  width: 20px;
+  height: 20px;
+  background: #38a447;
+  border: 5px solid #65d475;
+}
+.cg-post-job-wrapper .cg-form-steps .step .progress-bar {
+  position: absolute;
+  left: 0;
+  height: 3px;
+  background: #65d475;
 }
 .cg-post-job-wrapper .cg-post-job-content {
   background: white;
@@ -934,7 +989,7 @@ footer .copyright {
   top: 50%;
   width: 100%;
   height: 1px;
-  background: rgba(0, 0, 0, 0.12);
+  background: #ddd;
 }
 .cg-post-job-wrapper .cg-form-sign-up-link {
   margin-top: 30px;
