@@ -94,6 +94,9 @@ html,body{
     font-family:"Montserrat", sans-serif;
     min-width:1280px;
 }
+body.post-job-page{
+    background:#ebebeb;
+}
 #main{
 	width:100%;
     padding-top:130px;
@@ -138,7 +141,7 @@ header{
     width:100%;
     height:130px;
     background:white;
-    box-shadow:0 1px 4px 0 rgba(0,0,0,0.25);
+    border-bottom:1px solid $light_gray;
     padding:0 30px;
     .guru-search-bar{
         @include opacity(0);
